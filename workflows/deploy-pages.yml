@@ -49,7 +49,7 @@ jobs:
             base_href="/${GITHUB_REPOSITORY#*/}/"
           fi
           flutter build web --release --base-href "$base_href"
-          cp index.html build/web/payment-return.html
+          
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
