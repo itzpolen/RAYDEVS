@@ -1,8 +1,0 @@
-[functions.paymongo_webhook]
-verify_jwt = false
-
-[functions.process_payment_provider_actions]
-verify_jwt = false
-
-[functions.payment_return]
-verify_jwt = false
